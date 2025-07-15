@@ -3,7 +3,9 @@ ORBIT - Orbital Reconstruction via Bayesian Iterative Technique
 
 This Python 3 script performs a complete Keplerian radial-velocity fit with an MCMC sampler.
 
-It needs: numpy, pandas, matplotlib, scipy, emcee, corner.
+Dependencies:
+- Python ≥ 3.7  
+- `numpy`, `pandas`, `matplotlib`, `scipy`, `emcee`, `corner`
 
 Input: a whitespace-separated text table containing three columns
 HJD (heliocentric Julian day), RV (km s-1), and sigma (km s-1).
