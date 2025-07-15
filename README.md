@@ -27,7 +27,7 @@ MCMC sampling – builds an emcee.EnsembleSampler with nwalkers = 4*ndim+10, ini
 
 Fit quality – computes chi2, degrees of freedom (dof = N – k), and reduced chi2.
 
-Mass function – converts sampled P and K to SI units, computes f(m) = (K^3 P)/(2 pi G) (1-e^2)^(-1.5) / M_sun for every posterior sample, prints median and standard deviation.
+Mass function – converts sampled P and K to SI units, computes f(m) for every posterior sample, prints median and standard deviation.
 
 Plotting – folds times by the best-fit period, draws data with error bars and the best curve, plots normalised residuals underneath, styles ticks and fonts, saves the figure as rv_fit_HR8523_secondary.pdf. An optional corner plot of the posterior can be produced by uncommenting two lines in block 6.
 
