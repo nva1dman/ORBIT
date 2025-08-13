@@ -7,6 +7,9 @@ Dependencies:
 - Python ≥ 3.7  
 - `numpy`, `pandas`, `matplotlib`, `scipy`, `emcee`, `corner`
 
+<img width="1024" height="345" alt="Neutral Beige Minimalist Corporate Company Organizational Chart (2)" src="https://github.com/user-attachments/assets/129e125a-2a8f-43a2-84f5-3bf7cd0164a3" />
+
+
 Input: a whitespace-separated text table containing three columns
 HJD (heliocentric Julian day), RV (km s-1), and sigma (km s-1).
 The path is set in the variable data_file.
